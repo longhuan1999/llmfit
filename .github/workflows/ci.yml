@@ -17,6 +17,8 @@ on:
       - opened
       - synchronize
       - reopened
+  workflow_call:
+  workflow_dispatch:
 
 env:
   CARGO_TERM_COLOR: always
